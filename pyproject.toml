@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "tasktracker"
+version = "0.1.0"
+description = "Demo Django project for the Python training course"
+authors = ["Serhii Horodilov <sgorodil@gmail.com>"]
+license = "MIT"
+readme = "README.rst"
+repository = "https://github.com/edu-python-course/tasktracker"
+keywords = ["python", "training", "todo", "django"]
+classifiers = [
+    "Framework :: Django :: 4",
+    "Framework :: Django :: 4.1",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only"
+]
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/edu-python-course/tasktracker/issues"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Django = "4.1.5"
+psycopg2-binary = "2.9.5"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
